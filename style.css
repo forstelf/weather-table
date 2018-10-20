@@ -1,0 +1,105 @@
+body {
+    font-style: 200%;
+}
+
+.wrapper {
+    padding: 10px;
+    background-color: #00008B;
+}
+
+.content {
+    background: #1E90FF;
+    padding: 200px;
+}
+
+header {
+    color: white;
+    padding: 30px 0px;
+}
+
+.cities {
+    list-style: none;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 0%;
+    border: 3px solid white;
+    padding: 0;
+}
+
+.cities:hover li .cityforecast {
+    opacity: 0.5;
+}
+
+.cities li {
+    display: inline-block;
+    font-size: 24px;
+    /* height: 72px; */
+    border: 3px solid white;
+    box-sizing: border-box; 
+    color: white;
+}
+
+.cities li:hover .cityforecast {
+    opacity: 1.0;
+}
+
+.large {
+    width: 100%;
+}
+
+.medium {
+    width: 50%;
+}
+
+.small {
+    width: 25%;
+}
+
+.blue {
+    background-color: #1E90FF;
+}
+
+.mint {
+    background-color: #7FFFD4;
+}
+
+.violet {
+    background-color: #BA55D3;
+}
+
+.red {
+    background-color: red;
+}
+
+.orange {
+    background-color: #FF5733;
+}
+
+.yellow {
+    background-color: #FFD700;
+}
+
+.light-green {
+    background-color: rgb(149, 209, 142);
+}
+
+.grey {
+    background-color: #909195;
+}
+
+.rose {
+    background-color: #FF00FF;
+}
+
+.green {
+    background-color: #008000;
+}
+
+.dark-violet {
+    background-color: #7B68EE;
+}
+
+footer {
+    color: white;
+    padding: 30px 0px;
+}
