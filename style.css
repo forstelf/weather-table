@@ -1,21 +1,22 @@
 body {
     font-style: 200%;
-    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+    font-family: sans-serif;
 }
 
 .wrapper {
     padding: 10px;
-    background-color: #00008B;
+    background-color: #3875ab;
 }
 
 .content {
-    background: #1E90FF;
-    padding: 200px;
+    background: #418acf;
+    padding: 150px 20%;
 }
 
 header {
     color: white;
     padding: 30px 0px;
+    font-size: 30px;
 }
 
 .cities {
@@ -40,6 +41,14 @@ header {
     color: white;
 }
 
+.cityforecast {
+    padding: 15px 0;    
+}
+
+.forecast {
+    opacity: 0.7;
+}
+
 .cities li:hover .cityforecast {
     opacity: 1.0;
 }
@@ -57,47 +66,47 @@ header {
 }
 
 .blue {
-    background-color: #1E90FF;
+    background-color: #418acf;
 }
 
 .mint {
-    background-color: #7FFFD4;
+    background-color: #00d0ce;
 }
 
 .violet {
-    background-color: #BA55D3;
+    background-color: #a04e98;
 }
 
 .red {
-    background-color: red;
+    background-color: #c6373d;
 }
 
 .orange {
-    background-color: #FF5733;
+    background-color: #e6603a;
 }
 
 .yellow {
-    background-color: #FFD700;
+    background-color: #fbd956;
 }
 
 .light-green {
-    background-color: rgb(149, 209, 142);
+    background-color: #8ad897;
 }
 
 .grey {
-    background-color: #909195;
+    background-color: #619a99;
 }
 
 .rose {
-    background-color: #FF00FF;
+    background-color: #d44595;
 }
 
 .green {
-    background-color: #008000;
+    background-color: #00a567;
 }
 
 .dark-violet {
-    background-color: #7B68EE;
+    background-color: #6e539a;
 }
 
 footer {
